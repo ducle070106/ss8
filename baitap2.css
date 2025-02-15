@@ -1,0 +1,91 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form-container {
+    background-color: rgb(114, 48, 118);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+    margin: 0 20px; 
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+}
+
+
+.input-field label,
+textarea + label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: white;
+}
+
+
+.input-group {
+    display: flex;
+    justify-content: space-between; 
+    margin-bottom: 20px;
+    width: 100%; 
+}
+
+.input-field {
+    width: 45%; 
+}
+
+.input-field label {
+    color: white; 
+}
+
+.input-field input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+
+textarea {
+    width: 100%;
+    height: 120px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    color: white; 
+}
+
+
+button {
+    background-color: white;
+    color: black; 
+    border: none;
+    padding: 8px 16px; 
+    border-radius: 4px;
+    cursor: pointer;
+    width: auto; 
+    font-size: 16px;
+    margin-left: 0; 
+}
+label[for="message"] {
+    color: white; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
