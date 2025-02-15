@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 40px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.header .underline {
+    display: inline-block;
+    border-bottom: 2px solid red; 
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.box {
+    width: 48%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.icon-wrap {
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.diamond {
+    width: 80px;
+    height: 80px;
+    border: 2px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: rotate(45deg);
+    position: absolute;
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+    position: relative;
+}
+
+.text {
+    flex-grow: 1;
+    margin-left: 60px;
+    max-width: 70%;
+}
+
+.text h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.text p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.5;
+}
