@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: #fbfbfb;
+}
+
+.container {
+    padding: 50px 20px;
+    background: #fff;
+}
+
+h2 {
+    
+    color: #828296;
+    font-weight: lighter;
+}
+
+p {
+    font-size: 16px;
+    color: #828296;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+button {
+    font-size: 16px;
+    border: none;
+    padding: 12px 20px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.download {
+    background: #2c92f2d1;
+    color: white;
+    border: none;
+}
+
+.download i {
+    margin-right: 5px;
+}
+
+.learn-more {
+    background: white;
+    color: #333;
+    border: 1px solid #ccc;
+}
+
+footer {
+    margin-top: 50px;
+    padding: 20px;
+    background: #f8f8f8;
+}
+
+.social-icons {
+    margin-bottom: 10px;
+}
+
+.social-icons i {
+    font-size: 24px;
+    margin: 0 10px;
+    color: #bbb;
+    cursor: pointer;
+}
